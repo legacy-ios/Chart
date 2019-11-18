@@ -10,13 +10,19 @@ import UIKit
 
 class ChartViewController: UIViewController {
 
+    @IBOutlet weak var messageTextField: UITextField!
+    
+    @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func sendPressed(_ sender: UIButton) {
+    }
+    
+    
     /*
     // MARK: - Navigation
 
