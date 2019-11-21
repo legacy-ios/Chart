@@ -6,4 +6,5 @@ target 'Chart' do
   # Pods for Chart
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
+  pod 'IQKeyboardManagerSwift'
 end
