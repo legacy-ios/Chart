@@ -21,6 +21,7 @@
 		4B0358F62385C18B00B8F997 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0358F52385C18B00B8F997 /* Message.swift */; };
 		4B0358F92385C79C00B8F997 /* MessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0358F72385C79C00B8F997 /* MessageCell.swift */; };
 		4B0358FA2385C79C00B8F997 /* MessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B0358F82385C79C00B8F997 /* MessageCell.xib */; };
+		4B65E7AA25100C7A0040CAF4 /* chatPreView.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B65E7A925100C7A0040CAF4 /* chatPreView.gif */; };
 		DB5DD44A42A7C13B1E384264 /* Pods_Chart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE9066D9F80D1424E2144005 /* Pods_Chart.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		4B0358F52385C18B00B8F997 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		4B0358F72385C79C00B8F997 /* MessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageCell.swift; sourceTree = "<group>"; };
 		4B0358F82385C79C00B8F997 /* MessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MessageCell.xib; sourceTree = "<group>"; };
+		4B65E7A925100C7A0040CAF4 /* chatPreView.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = chatPreView.gif; sourceTree = "<group>"; };
 		4FAA304182EE782AA24A3EFC /* Pods-Chart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart.release.xcconfig"; path = "Target Support Files/Pods-Chart/Pods-Chart.release.xcconfig"; sourceTree = "<group>"; };
 		5EBD25C5853AA1E4605C5E52 /* Pods-Chart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Chart.debug.xcconfig"; path = "Target Support Files/Pods-Chart/Pods-Chart.debug.xcconfig"; sourceTree = "<group>"; };
 		CE9066D9F80D1424E2144005 /* Pods_Chart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Chart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +81,7 @@
 		4B0358D123834C2D00B8F997 /* Chart */ = {
 			isa = PBXGroup;
 			children = (
+				4B65E7A825100C5A0040CAF4 /* PreViewGIF */,
 				4B0358E623834DF300B8F997 /* Model */,
 				4B0358E723834E0200B8F997 /* View */,
 				4B0358E823834E0900B8F997 /* Controller */,
@@ -120,6 +123,14 @@
 				4B0358EF23834F1500B8F997 /* ChatViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		4B65E7A825100C5A0040CAF4 /* PreViewGIF */ = {
+			isa = PBXGroup;
+			children = (
+				4B65E7A925100C7A0040CAF4 /* chatPreView.gif */,
+			);
+			path = PreViewGIF;
 			sourceTree = "<group>";
 		};
 		B74A694993C183F095ED01D1 /* Pods */ = {
@@ -204,6 +215,7 @@
 				4B0358F22385A43600B8F997 /* GoogleService-Info.plist in Resources */,
 				4B0358DC23834C3100B8F997 /* Assets.xcassets in Resources */,
 				4B0358DA23834C2D00B8F997 /* Main.storyboard in Resources */,
+				4B65E7AA25100C7A0040CAF4 /* chatPreView.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
