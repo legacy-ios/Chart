@@ -1,2 +1,2 @@
 # Chart Demo Project With Swift
-![Preview]()
+![Preview](https://github.com/w-ryan-jung/Chart/blob/master/Chart/PreViewGIF/chatPreView.gif)
